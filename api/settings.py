@@ -43,7 +43,7 @@ SECRET_KEY = secret_key
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 TESTING = len(sys.argv) > 1 and sys.argv[1] == "test"
-ALLOWED_HOSTS = ["127.0.0.1", "localhost", ".vercel.app"]
+ALLOWED_HOSTS = ["*", ".vercel.app"]
 
 
 # Application definition
